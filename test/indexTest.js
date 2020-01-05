@@ -13,7 +13,7 @@ describe('boardMembers', function() {
       expect(polishedBoardMember.training).to.equal("law")
     })
   })
-
+ 
   describe('veto()', function() {
     let polishedBoardMember;
     before(() => {
